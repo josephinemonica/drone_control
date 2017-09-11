@@ -1,0 +1,3 @@
+/home/mon/catkin_ws2/src/drone_control/src/plugins/build/CMakeFiles/rebuild_cache.dir
+/home/mon/catkin_ws2/src/drone_control/src/plugins/build/CMakeFiles/edit_cache.dir
+/home/mon/catkin_ws2/src/drone_control/src/plugins/build/CMakeFiles/revolute_control_plugin.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11  -shared -Wl,-soname,librevolute_control_plugin.so -o librevolute_control_plugin.so CMakeFiles/revolute_control_plugin.dir/revolute_control_plugin.cc.o  -L/usr/lib/x86_64-linux-gnu/gazebo-7/plugins 
