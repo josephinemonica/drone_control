@@ -17,7 +17,7 @@
       </include>
 
       <!-- Attach the plugin to this model -->
-      <!--<plugin name="velodyne_control" filename="libvelodyne_plugin.so"/>-->
+      <plugin name="velodyne_control" filename="librevolute_control_plugin.so"/>
     </model>
 
   </world>
