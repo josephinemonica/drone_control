@@ -90,6 +90,25 @@ revolute_control_plugin_EXTERNAL_OBJECTS =
 
 librevolute_control_plugin.so: CMakeFiles/revolute_control_plugin.dir/revolute_control_plugin.cc.o
 librevolute_control_plugin.so: CMakeFiles/revolute_control_plugin.dir/build.make
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/libroscpp.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/librosconsole.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/librostime.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+librevolute_control_plugin.so: /opt/ros/kinetic/lib/libcpp_common.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+librevolute_control_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 librevolute_control_plugin.so: CMakeFiles/revolute_control_plugin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mon/catkin_ws2/src/drone_control/src/plugins/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library librevolute_control_plugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/revolute_control_plugin.dir/link.txt --verbose=$(VERBOSE)
