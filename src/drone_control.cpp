@@ -1,3 +1,5 @@
+/*Controlling drone by setting velocity and location */
+
 #include "ros/ros.h"
 #include "geometry_msgs/PoseStamped.h"
 #include "geometry_msgs/TwistStamped.h"

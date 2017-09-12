@@ -1,5 +1,6 @@
 SRC:
 drone_control.cpp = drone_control node to control drone(PX4 simulation mavros_posix) by specifying velocity or location
+revolute_control.cpp = revolute_control node to control revolute joint, publishing joint velocity command. Currently the topic is set to control 1DOF model
 
 LAUNCH:
 demo.launch = launches the PX4 simulation & drone_control node
